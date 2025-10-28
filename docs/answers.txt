@@ -1,0 +1,50 @@
+1) 
+anika@Laptop MINGW64 ~/Documents/CEN4020 Assignment 3/Assignment3_Fall25 (master)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 807 bytes | 403.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/anisanrra/Assignment3_Fall25.git
+   f4975e5..5b97f0d  master -> master
+
+---------------------------------------------------------------------------------------
+2)
+anika@Laptop MINGW64 ~/Documents/CEN4020 Assignment 3/Assignment3_Fall25 (master)
+$ git log --oneline | wc -l
+9
+
+---------------------------------------------------------------------------------------
+3) 
+anika@Laptop MINGW64 ~/Documents/CEN4020 Assignment 3/Assignment3_Fall25 (master)
+$ git log -1 --format="%cd" -- README.md
+Fri Oct 24 18:16:24 2025 -0400
+
+---------------------------------------------------------------------------------------
+4)
+According to "Branches in a Nutshell", one reason branches are used in a Git repository to diverge from the main line of development and continue to do work, like trying a new feature or fixing a bug, without messing with that main line. Another reason is to create isolated lines of development. This allows you to work on different changes that are separate from each other. This allows you to easily switch back and forth between these branches and merge them together when you are ready.
+
+---------------------------------------------------------------------------------------
+5)
+The difference between git log and git status is that git log is used to get information about last commits/ show past history of the project. In contrast, git status shows the working tree status/ the current state of the project.
+   
+---------------------------------------------------------------------------------------
+6) 
+git log --follow Vehicle.h
+
+---------------------------------------------------------------------------------------
+7)
+git log --grep="term" 
+
+---------------------------------------------------------------------------------------
+8)
+I. Inheritance is a relationship where a new class/ subclass is defined based on an existing class/ superclass. This relationship allows the subclass to automatically inherit the attributes and operations from its parent class.
+
+II. Polymorphism is the ability for a single method call to be applied to objects of different classes. The system uses dynamic biding at run-time to automatically select the correct implementation of that method based on the object's specific class. 
+
+III. Encapsulation: This is the concept of bundling a data structure together with the operations performed on it. This is often combined with information hiding, where the data attributes are made private so they are hidden from other modules and can only be accessed via public methods, helping localize the effect of future changes. 
+
+---------------------------------------------------------------------------------------
