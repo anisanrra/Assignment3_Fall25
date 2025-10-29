@@ -1,3 +1,14 @@
+Git Lab Tutorials: 
+	* Learn Git Branching Activities: 
+		* Main -- Introduction Sequence: October 24, 2025
+		* Remote -- Push & Pull -- Git Remotes!: October 24, 2025
+	* Visualizing Git: October 24, 2025
+
+GitHub Account Creation Date: May 21, 2025
+
+
+---------------------------------------------------------------------------------------
+
 1) 
 anika@Laptop MINGW64 ~/Documents/CEN4020 Assignment 3/Assignment3_Fall25 (master)
 $ git push
